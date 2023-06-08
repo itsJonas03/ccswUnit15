@@ -11,7 +11,7 @@ const App = () => {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/ccswUnit15" element={<HomePage />} />
           <Route path="/homepage" element={<HomePage />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/course" element={<a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">Course</a>} />

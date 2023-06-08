@@ -1,5 +1,5 @@
 {
-  "homepage": "https://itsJonas03.github.io/websiteUnit15",
+  "homepage": "https://itsJonas03.github.io/ccswUnit15",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -21,12 +21,12 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "git --work-tree=./build --git-dir=./build/.git push -f origin HEAD:gh-pages",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },  
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
